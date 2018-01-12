@@ -13,3 +13,4 @@ class CaiCloudController(Resource):
         }
         response = make_response(json.dumps(text, ensure_ascii=False))
         return response
+
